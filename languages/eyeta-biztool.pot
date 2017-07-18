@@ -1,0 +1,596 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP-biz-tool\n"
+"POT-Creation-Date: 2016-07-22 19:53+0900\n"
+"PO-Revision-Date: 2016-07-22 19:53+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: eyeta-biztool.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: core/ajax/add_group.php:31
+msgid "Added role."
+msgstr ""
+
+#: core/ajax/add_table.php:31
+msgid "Added post type . To start the details of the setting of post type ."
+msgstr ""
+
+#: core/ajax/get_field_base.php:33 core/ajax/get_field_form.php:36
+#: core/ajax/get_listview_base.php:28 core/ajax/get_listviewcell_base.php:29
+#: core/ajax/get_listviewcell_form.php:38
+#: core/ajax/get_listviewfilter_base.php:29
+#: core/ajax/get_listviewfilter_form.php:38
+msgid "Target of the column number is invalid .:"
+msgstr ""
+
+#: core/ajax/save_field.php:30
+msgid "System error , does not have to post is specified ."
+msgstr ""
+
+#: core/ajax/save_field.php:35
+msgid "The specified post can not be found . It might have been deleted ."
+msgstr ""
+
+#: core/ajax/save_field.php:61 core/ajax/save_table_setting.php:39
+msgid "saved."
+msgstr ""
+
+#: core/ajax/save_field.php:71
+msgid "Do not have permission."
+msgstr ""
+
+#: core/ajax/save_field.php:88 core/ajax/save_table_setting.php:57
+msgid "Post type has not been specified ."
+msgstr ""
+
+#: core/ajax/save_field.php:94 core/ajax/save_field.php:100
+#: core/ajax/save_table_setting.php:63 core/ajax/save_table_setting.php:69
+msgid "There is no table definition of post type: "
+msgstr ""
+
+#: core/ajax/update_field_acl.php:62
+msgid "Specified group can not be found . It may have been deleted ."
+msgstr ""
+
+#: core/ajax/update_group_name.php:35
+msgid "You have saved the name of the role."
+msgstr ""
+
+#: core/ajax/update_table_acl.php:62
+msgid "Specified role can not be found . It may have been deleted ."
+msgstr ""
+
+#: core/ajax/update_table_name.php:35
+msgid "You have saved the name of the post type ."
+msgstr ""
+
+#: core/ajax/update_table_name.php:63
+msgid "Target of post_type can not be found ."
+msgstr ""
+
+#: core/class/field.php:298
+msgid "meta_key"
+msgstr ""
+
+#: core/class/field.php:302
+msgid "for search"
+msgstr ""
+
+#: core/class/field/checkbox.php:239 core/class/field/date.php:197
+#: core/class/field/email.php:162 core/class/field/file.php:147
+#: core/class/field/image.php:188 core/class/field/number.php:190
+#: core/class/field/password.php:126 core/class/field/post.php:296
+#: core/class/field/radio.php:238 core/class/field/select.php:250
+#: core/class/field/text.php:205 core/class/field/textarea.php:178
+#: core/class/field/true_false.php:166 core/class/field/user.php:325
+msgid "Description"
+msgstr ""
+
+#: core/class/field/checkbox.php:239 core/class/field/date.php:197
+#: core/class/field/email.php:162 core/class/field/file.php:147
+#: core/class/field/image.php:188 core/class/field/number.php:190
+#: core/class/field/password.php:126 core/class/field/post.php:296
+#: core/class/field/radio.php:238 core/class/field/select.php:250
+#: core/class/field/text.php:205 core/class/field/textarea.php:178
+#: core/class/field/true_false.php:166 core/class/field/user.php:325
+msgid "It will be displayed on the post screen"
+msgstr ""
+
+#: core/class/field/checkbox.php:243 core/class/field/radio.php:246
+#: core/class/field/select.php:258 init.php:261 init.php:269 init.php:277
+#: init.php:285
+msgid "Choices"
+msgstr ""
+
+#: core/class/field/checkbox.php:243 core/class/field/radio.php:246
+#: core/class/field/select.php:258
+msgid ""
+"Once described as the following , you can control both the value and the "
+"label ."
+msgstr ""
+
+#: core/class/field/date.php:201 core/class/field/date.php:202
+#: core/class/field/email.php:166 core/class/field/email.php:167
+#: core/class/field/file.php:151 core/class/field/file.php:152
+#: core/class/field/image.php:192 core/class/field/image.php:193
+#: core/class/field/number.php:194 core/class/field/number.php:195
+#: core/class/field/password.php:130 core/class/field/password.php:131
+#: core/class/field/post.php:300 core/class/field/post.php:301
+#: core/class/field/radio.php:242 core/class/field/radio.php:243
+#: core/class/field/select.php:254 core/class/field/select.php:255
+#: core/class/field/text.php:209 core/class/field/text.php:210
+#: core/class/field/textarea.php:182 core/class/field/textarea.php:183
+#: core/class/field/user.php:329 core/class/field/user.php:330
+msgid "Required"
+msgstr ""
+
+#: core/class/field/date.php:205 core/class/field/email.php:170
+#: core/class/field/number.php:198 core/class/field/radio.php:252
+#: core/class/field/text.php:213 core/class/field/textarea.php:186
+msgid "Default value"
+msgstr ""
+
+#: core/class/field/date.php:205 core/class/field/email.php:170
+#: core/class/field/number.php:198 core/class/field/radio.php:252
+#: core/class/field/text.php:213 core/class/field/textarea.php:186
+msgid "It will be displayed when creating a new"
+msgstr ""
+
+#: core/class/field/date.php:209 core/class/field/email.php:174
+#: core/class/field/number.php:202 core/class/field/password.php:134
+#: core/class/field/text.php:217 core/class/field/textarea.php:190
+msgid "Text placeholders"
+msgstr ""
+
+#: core/class/field/date.php:209 core/class/field/email.php:174
+#: core/class/field/number.php:202 core/class/field/password.php:134
+#: core/class/field/text.php:217 core/class/field/textarea.php:190
+msgid "It will be displayed in the input field"
+msgstr ""
+
+#: core/class/field/file.php:101 core/class/field/image.php:159
+msgid "Edit"
+msgstr ""
+
+#: core/class/field/file.php:103 core/class/field/image.php:163
+msgid "Add"
+msgstr ""
+
+#: core/class/field/file.php:155 core/class/field/file.php:156
+#: core/class/field/image.php:196 core/class/field/image.php:197
+msgid "Private file"
+msgstr ""
+
+#: core/class/field/file.php:156 core/class/field/image.php:197
+msgid "It can not be seen as not logged in"
+msgstr ""
+
+#: core/class/field/number.php:206
+msgid "Maximum value"
+msgstr ""
+
+#: core/class/field/number.php:206 core/class/field/number.php:210
+#: core/class/field/password.php:138 core/class/field/password.php:142
+#: core/class/field/text.php:221 core/class/field/text.php:225
+#: core/class/field/textarea.php:194 core/class/field/textarea.php:198
+msgid "If you do not want to restrict in the blank"
+msgstr ""
+
+#: core/class/field/number.php:210
+msgid "Minimum value"
+msgstr ""
+
+#: core/class/field/password.php:138 core/class/field/text.php:221
+#: core/class/field/textarea.php:194
+msgid "Limit the number of characters"
+msgstr ""
+
+#: core/class/field/password.php:142 core/class/field/text.php:225
+#: core/class/field/textarea.php:198
+msgid "The minimum number of characters"
+msgstr ""
+
+#: core/class/field/post.php:304
+msgid "Post Type"
+msgstr ""
+
+#: core/class/field/post.php:304
+msgid "Select the posttype you want to select"
+msgstr ""
+
+#: core/class/field/post.php:317
+msgid "Field to display"
+msgstr ""
+
+#: core/class/field/post.php:317
+msgid "Columns to display in the select box"
+msgstr ""
+
+#: core/class/field/post.php:358
+msgid "Post title"
+msgstr ""
+
+#: core/class/field/select.php:264 core/class/field/select.php:265
+msgid "You can select multiple values"
+msgstr ""
+
+#: core/class/field/text.php:229
+msgid "Validation"
+msgstr ""
+
+#: core/class/field/text.php:231
+msgid "no validation"
+msgstr ""
+
+#: core/class/field/text.php:232
+msgid "Double-byte character"
+msgstr ""
+
+#: core/class/field/text.php:233
+msgid "Double-byte hiragana and katakana , Double-byte space"
+msgstr ""
+
+#: core/class/field/text.php:234
+msgid "Double-byte hiragana , Double-byte space"
+msgstr ""
+
+#: core/class/field/text.php:235
+msgid "Double-byte katakana , Double-byte space"
+msgstr ""
+
+#: core/class/field/text.php:236
+msgid "Single-byte katakana , Single-byte space"
+msgstr ""
+
+#: core/class/field/text.php:237
+msgid "Single-byte alphabetic characters , Single-byte space"
+msgstr ""
+
+#: core/class/field/text.php:238
+msgid "Alphanumeric"
+msgstr ""
+
+#: core/class/field/text.php:239
+msgid "Alphanumeric characters or symbols"
+msgstr ""
+
+#: core/class/field/text.php:240
+msgid "Alphanumeric characters and single-byte space"
+msgstr ""
+
+#: core/class/field/text.php:244
+msgid "Fixed format"
+msgstr ""
+
+#: core/class/field/text.php:246
+msgid "reference"
+msgstr ""
+
+#: core/class/field/user.php:333
+msgid "Target role"
+msgstr ""
+
+#: core/class/field/user.php:335
+msgid "ALL"
+msgstr ""
+
+#: core/class/listviewcell/inlineedit.php:71
+#: core/class/listviewcell/simple.php:78
+msgid "Display column"
+msgstr ""
+
+#: core/class/listviewfilter/textfield.php:99
+msgid "Subject field"
+msgstr ""
+
+#: core/class/table.php:498
+msgid "Additional search"
+msgstr ""
+
+#: core/class/table.php:508
+msgid "Search"
+msgstr ""
+
+#: eyeta-biztool.php:159
+msgid "From Computer"
+msgstr ""
+
+#: functions.php:28
+msgid "Thumbnail"
+msgstr ""
+
+#: functions.php:29
+msgid "Medium"
+msgstr ""
+
+#: functions.php:30
+msgid "Large"
+msgstr ""
+
+#: functions.php:31
+msgid "Full"
+msgstr ""
+
+#: init.php:135
+msgid "In the column Search"
+msgstr ""
+
+#: init.php:136
+msgid "Fuzzy search for the specified column"
+msgstr ""
+
+#: init.php:167
+msgid "dipslay"
+msgstr ""
+
+#: init.php:168
+msgid "Simple display ( specified simply display one column )"
+msgstr ""
+
+#: init.php:175
+msgid "Edit in the list"
+msgstr ""
+
+#: init.php:197 init.php:205 init.php:213 init.php:221 init.php:229
+#: init.php:237
+msgid "Basic"
+msgstr ""
+
+#: init.php:198
+msgid "Text"
+msgstr ""
+
+#: init.php:199
+msgid "Textbox"
+msgstr ""
+
+#: init.php:206
+msgid "Textarea"
+msgstr ""
+
+#: init.php:207
+msgid "Multiline text"
+msgstr ""
+
+#: init.php:214
+msgid "Numeric"
+msgstr ""
+
+#: init.php:222
+msgid "Email"
+msgstr ""
+
+#: init.php:230
+msgid "Password"
+msgstr ""
+
+#: init.php:238
+msgid "Date"
+msgstr ""
+
+#: init.php:245 init.php:253 init.php:254
+msgid "File"
+msgstr ""
+
+#: init.php:246
+msgid "Image"
+msgstr ""
+
+#: init.php:262
+msgid "Selectbox"
+msgstr ""
+
+#: init.php:270
+msgid "Checkbox"
+msgstr ""
+
+#: init.php:278
+msgid "Radio button"
+msgstr ""
+
+#: init.php:286
+msgid "Yes/No"
+msgstr ""
+
+#: init.php:293 init.php:301
+msgid "Relation"
+msgstr ""
+
+#: init.php:294
+msgid "Post"
+msgstr ""
+
+#: init.php:295
+msgid "You can link the post of the other Posttype"
+msgstr ""
+
+#: init.php:302
+msgid "User"
+msgstr ""
+
+#: init.php:319
+msgid "Simple table"
+msgstr ""
+
+#: view/setting/base-group.php:22
+msgid "Create New"
+msgstr ""
+
+#: view/setting/base-group.php:48
+msgid "Role name"
+msgstr ""
+
+#: view/setting/base-table.php:49
+msgid "Posttype name"
+msgstr ""
+
+#: view/setting/base-table.php:51
+msgid ""
+"Descriptive name of the data , example ) the customer master , orders list , "
+"etc."
+msgstr ""
+
+#: view/setting/base.php:25
+msgid "BizTool setting"
+msgstr ""
+
+#: view/setting/base.php:29
+msgid "Posttype Management"
+msgstr ""
+
+#: view/setting/base.php:32
+msgid "Role Management"
+msgstr ""
+
+#: view/setting/table-acl.php:33
+msgid "Could Show Posttype List"
+msgstr ""
+
+#: view/setting/table-acl.php:39
+msgid "Could Edit Posttype post"
+msgstr ""
+
+#: view/setting/table-acl.php:45
+msgid "Could Add New Posttype post"
+msgstr ""
+
+#: view/setting/table-acl.php:51
+msgid "Could Delete New Posttype post"
+msgstr ""
+
+#: view/setting/table-field-base.php:28 view/setting/table-listview.php:26
+#: view/setting/table-listviewcell-base.php:30
+#: view/setting/table-listviewfilter-base.php:30
+msgid "delete"
+msgstr ""
+
+#: view/setting/table-field-base.php:28
+msgid "duplicate"
+msgstr ""
+
+#: view/setting/table-field-base.php:33
+msgid "Field name"
+msgstr ""
+
+#: view/setting/table-field-base.php:38
+msgid "Field type"
+msgstr ""
+
+#: view/setting/table-field-base.php:40
+#: view/setting/table-listviewcell-base.php:41
+#: view/setting/table-listviewfilter-base.php:41
+msgid "Please select"
+msgstr ""
+
+#: view/setting/table-listview.php:31
+msgid "Listview Name"
+msgstr ""
+
+#: view/setting/table-listview.php:36
+msgid "Field"
+msgstr ""
+
+#: view/setting/table-listview.php:50
+msgid "Add Field"
+msgstr ""
+
+#: view/setting/table-listview.php:56
+msgid "Filter"
+msgstr ""
+
+#: view/setting/table-listview.php:70
+msgid "Add Filter"
+msgstr ""
+
+#: view/setting/table-listviewcell-base.php:35
+msgid "Column Name"
+msgstr ""
+
+#: view/setting/table-listviewcell-base.php:39
+msgid "Column Type"
+msgstr ""
+
+#: view/setting/table-listviewfilter-base.php:35
+msgid "Placeholder"
+msgstr ""
+
+#: view/setting/table-listviewfilter-base.php:39
+msgid "Filter type"
+msgstr ""
+
+#: view/setting/table.php:38
+msgid "Setting"
+msgstr ""
+
+#: view/setting/table.php:46
+msgid "Basic Setting"
+msgstr ""
+
+#: view/setting/table.php:47
+msgid "Field Setting"
+msgstr ""
+
+#: view/setting/table.php:48
+msgid "Listview Setting"
+msgstr ""
+
+#: view/setting/table.php:49
+msgid "Access right Setting"
+msgstr ""
+
+#: view/setting/table.php:56
+msgid "Posttype Type"
+msgstr ""
+
+#: view/setting/table.php:74
+msgid ""
+"You can set the column . Add and edit the column , please to complete the "
+"required tables ."
+msgstr ""
+
+#: view/setting/table.php:84
+msgid "Add field"
+msgstr ""
+
+#: view/setting/table.php:88
+msgid ""
+"It may not be displayed all of the columns in the list screen, set a "
+"combination of columns to display , let's use a good screen ."
+msgstr ""
+
+#: view/setting/table.php:101
+msgid "Add Listview"
+msgstr ""
+
+#: view/setting/table.php:111
+msgid "Save"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP-biz-tool"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "WordPressを業務ツールのように使うプラグイン"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Eyeta Co.,Ltd.(http://www.eyeta.jp)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.eyeta.jp/"
+msgstr ""

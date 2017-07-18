@@ -1,0 +1,291 @@
+
+@mixin hover() {
+	&:hover{
+		@include opacity(0.7);
+	}
+}
+// triangle
+@mixin module-triangle($size: 8px, $color: #000, $side: top, $position: 50%, $direction: regular) {
+	position: relative;
+	&::before {
+		content: "";
+		border: solid transparent;
+		display: inline-block;
+		position: absolute;
+		border-width: $size;
+		@if $direction == reverse {
+			@if $side == top {
+				border-bottom-color: $color;
+				margin-left: -$size;
+				left: $position;
+				bottom: -($size * 2);
+			}
+			@elseif $side == right {
+				border-left-color: $color;
+				margin-top: -$size;
+				left: -($size * 2);
+				top: $position;
+			}
+			@elseif $side == bottom {
+				border-top-color: $color;
+				margin-left: -$size;
+				left: $position;
+				top: -($size * 2);
+			}
+			@else {
+				border-right-color: $color;
+				margin-top: -$size;
+				right: -($size * 2);
+				top: $position;
+			}
+		}
+		@else {
+			@if $side == top {
+				border-bottom-color: $color;
+				margin-left: -$size;
+				left: $position;
+				top: -($size * 2);
+			}
+			@elseif $side == right {
+				border-left-color: $color;
+				margin-top: -$size;
+				right: -($size * 2);
+				top: $position;
+			}
+			@elseif $side == bottom {
+				border-top-color: $color;
+				margin-left: -$size;
+				left: $position;
+				bottom: -($size * 2);
+			}
+			@else {
+				border-right-color: $color;
+				margin-top: -$size;
+				left: -($size * 2);
+				top: $position;
+			}
+		}
+	}
+
+}
+
+
+.sp-show {
+}
+.lg-show {
+	display: none;
+}
+.md-show {
+	display: none;
+}
+.md-show- {
+	display: none;
+}
+.md-show-- {
+}
+
+.w100 {
+	width: 100%;
+}
+.w90 {
+	width: 90%;
+}
+.w80 {
+	width: 80%;
+}
+.w70 {
+	width: 70%;
+}
+.w60 {
+	width: 60%;
+}
+.w50 {
+	width: 50%;
+}
+.w40 {
+	width: 40%;
+}
+.w30 {
+	width: 30%;
+}
+.w20 {
+	width: 20%;
+}
+.w10 {
+	width: 10%;
+}
+
+.spw100 {
+	width: 100%;
+}
+
+
+.red {
+	color: red;
+}
+
+.hide {
+	display: none !important;
+}
+
+.fleft {
+	float: left;
+}
+.fright {
+	float: right;
+}
+.tleft {
+	text-align: left;
+}
+.tright {
+	text-align: right;
+}
+.tcenter {
+	text-align: center;
+}
+.fbold {
+	font-weight: bold;
+}
+
+.ml {
+	margin-left: 1em;
+}
+.mb {
+	margin-bottom: 1em;
+}
+.mt {
+	margin-top: 1em;
+}
+.mr {
+	margin-right: 1em;
+}
+
+
+.d-inline-block {
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.d-inline {
+	display: inline;
+}
+
+.d-block {
+	display: block;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	margin: 0 auto;
+}
+
+
+body {
+	header{
+
+	}
+
+	.setting-table-field-ul, .setting-table-listview-ul {
+		li {
+			margin-bottom: 0;
+			h3 {
+				margin: 0;
+				a{
+					font-size: 0.8em;
+					font-weight: normal;
+				}
+				a.btn-mini {
+					font-size: 0.6em;
+					text-decoration: underline;
+				}
+			}
+			div.field-toggle {
+				display: none;
+				padding: 1em 2.2em;
+			}
+			div.listview-toggle {
+				display: none;
+				padding: 1em 2.2em;
+			}
+			div.listviewcell-toggle {
+				display: none;
+				padding: 1em 2.2em;
+			}
+		}
+	}
+
+	.field-form-detail {
+		td {
+			a {
+				text-decoration: underline;
+				&:link, &:visited {
+					text-decoration: underline;
+				}
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+
+	input.error, textarea.error,select.error {
+		color: red;
+		border-color: red;
+	}
+	label.error {
+		color: red;
+		margin-top: 0px;
+	}
+
+
+	.my_meta_control .pre-image {
+		position: relative;
+		width: 200px;
+		border: solid 5px #ccc;
+	}
+	.my_meta_control .pre-image img {
+		width: 100%;
+		vertical-align: bottom;
+		cursor: move;
+	}
+	.my_meta_control .pre-image .img-edit {
+		background-color: #666;
+		padding: 5px;
+		position: absolute;
+		right: 5px;
+		bottom: 5px;
+		color: #fff;
+		display: none;
+	}
+	.my_meta_control .pre-image:hover .img-edit {
+		display: block;
+	}
+	.my_meta_control .pre-image .img-edit a {
+		color: #fff;
+		text-decoration: none;
+	}
+	.my_meta_control .pre-image .img-edit a:hover {
+		color: #eee;
+	}
+
+	img.eyeta_biztool_thum {
+		width: 150px;
+		max-width: 100%;
+	}
+
+
+	// 一覧表示用
+	.wp-list-table {
+		input.biztool-chenged {
+			border-color: purple;
+			border-width: 2px;
+		}
+		input.biztool-error {
+			border-color: red !important;
+			border-width: 2px;
+		}
+	}
+}
+
+

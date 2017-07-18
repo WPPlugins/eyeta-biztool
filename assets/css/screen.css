@@ -1,0 +1,159 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+.lg-show {
+  display: none; }
+
+.md-show {
+  display: none; }
+
+.md-show- {
+  display: none; }
+
+.w100 {
+  width: 100%; }
+
+.w90 {
+  width: 90%; }
+
+.w80 {
+  width: 80%; }
+
+.w70 {
+  width: 70%; }
+
+.w60 {
+  width: 60%; }
+
+.w50 {
+  width: 50%; }
+
+.w40 {
+  width: 40%; }
+
+.w30 {
+  width: 30%; }
+
+.w20 {
+  width: 20%; }
+
+.w10 {
+  width: 10%; }
+
+.spw100 {
+  width: 100%; }
+
+.red {
+  color: red; }
+
+.hide {
+  display: none !important; }
+
+.fleft {
+  float: left; }
+
+.fright {
+  float: right; }
+
+.tleft {
+  text-align: left; }
+
+.tright {
+  text-align: right; }
+
+.tcenter {
+  text-align: center; }
+
+.fbold {
+  font-weight: bold; }
+
+.ml {
+  margin-left: 1em; }
+
+.mb {
+  margin-bottom: 1em; }
+
+.mt {
+  margin-top: 1em; }
+
+.mr {
+  margin-right: 1em; }
+
+.d-inline-block {
+  display: inline-block;
+  box-sizing: border-box; }
+
+.d-inline {
+  display: inline; }
+
+.d-block {
+  display: block;
+  box-sizing: border-box; }
+
+.wrapper {
+  margin: 0 auto; }
+
+body .setting-table-field-ul li, body .setting-table-listview-ul li {
+  margin-bottom: 0; }
+  body .setting-table-field-ul li h3, body .setting-table-listview-ul li h3 {
+    margin: 0; }
+    body .setting-table-field-ul li h3 a, body .setting-table-listview-ul li h3 a {
+      font-size: 0.8em;
+      font-weight: normal; }
+    body .setting-table-field-ul li h3 a.btn-mini, body .setting-table-listview-ul li h3 a.btn-mini {
+      font-size: 0.6em;
+      text-decoration: underline; }
+  body .setting-table-field-ul li div.field-toggle, body .setting-table-listview-ul li div.field-toggle {
+    display: none;
+    padding: 1em 2.2em; }
+  body .setting-table-field-ul li div.listview-toggle, body .setting-table-listview-ul li div.listview-toggle {
+    display: none;
+    padding: 1em 2.2em; }
+  body .setting-table-field-ul li div.listviewcell-toggle, body .setting-table-listview-ul li div.listviewcell-toggle {
+    display: none;
+    padding: 1em 2.2em; }
+body .field-form-detail td a {
+  text-decoration: underline; }
+  body .field-form-detail td a:link, body .field-form-detail td a:visited {
+    text-decoration: underline; }
+  body .field-form-detail td a:hover {
+    text-decoration: none; }
+body input.error, body textarea.error, body select.error {
+  color: red;
+  border-color: red; }
+body label.error {
+  color: red;
+  margin-top: 0px; }
+body .my_meta_control .pre-image {
+  position: relative;
+  width: 200px;
+  border: solid 5px #ccc; }
+body .my_meta_control .pre-image img {
+  width: 100%;
+  vertical-align: bottom;
+  cursor: move; }
+body .my_meta_control .pre-image .img-edit {
+  background-color: #666;
+  padding: 5px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  color: #fff;
+  display: none; }
+body .my_meta_control .pre-image:hover .img-edit {
+  display: block; }
+body .my_meta_control .pre-image .img-edit a {
+  color: #fff;
+  text-decoration: none; }
+body .my_meta_control .pre-image .img-edit a:hover {
+  color: #eee; }
+body img.eyeta_biztool_thum {
+  width: 150px;
+  max-width: 100%; }
+body .wp-list-table input.biztool-chenged {
+  border-color: purple;
+  border-width: 2px; }
+body .wp-list-table input.biztool-error {
+  border-color: red !important;
+  border-width: 2px; }
